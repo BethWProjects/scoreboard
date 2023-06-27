@@ -8,6 +8,10 @@ body {
     background: #1B244A;
 }
 
+.columns {
+    margin: 69px auto;
+}
+
 h3 {
     color: #EEE;
     text-align: center;
@@ -22,11 +26,31 @@ h3 {
     color: #F94F6D;
     text-align: center;
     font-size: 90px;
-    font-family: Cursed Timer ULiL;
     line-height: 126.666px;
     width: 155px;
     height: 120px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
+
+.btn-container {
+    text-align: center;
+}
+
+button {
+    color: #9AABD8;
+    text-align: center;
+    font-size: 18px;
+    font-family: Cursed Timer ULiL;
+    line-height: 27.812px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+}
+
+button:hover {
+    cursor: pointer;
 }
