@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+}
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: 700;
+    line-height: 35.893px;
+}
+
+#num1-el, #num2-el {
+    
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    line-height: 126.666px;
+    width: 155px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #080001;
+}
