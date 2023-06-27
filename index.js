@@ -37,5 +37,11 @@ function homeAddTwo() {
     num2.innerText = count2;
  }
 
-
+//New Game Button
+function newGame() {
+    count = 0;
+    count2 = 0;
+    num1.innerText = count;
+    num2.innerText = count2;
+}
 
