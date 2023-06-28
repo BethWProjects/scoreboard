@@ -57,3 +57,7 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.btn-container {
+    margin: 2px auto;
+}

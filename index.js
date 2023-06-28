@@ -21,6 +21,21 @@ function homeAddTwo() {
     num1.innerText = count;
  }
 
+ function homeSubOne() {
+    count -= 1;
+    num1.innerText = count;
+ }
+
+ function homeSubTwo() {
+    count -= 2;
+    num1.innerText = count;
+ }
+
+ function homeSubThree() {
+    count -= 3;
+    num1.innerText = count;
+ }
+
  //Away Team Scores
  function guestAddOne() {
     count2 += 1;
@@ -34,6 +49,21 @@ function homeAddTwo() {
 
  function guestAddThree() {
     count2 += 3;
+    num2.innerText = count2;
+ }
+
+ function guestSubOne() {
+    count2 -= 1;
+    num2.innerText = count2;
+ }
+
+ function guestSubTwo() {
+    count2 -= 2;
+    num2.innerText = count2;
+ }
+
+ function guestSubThree() {
+    count2 -= 3;
     num2.innerText = count2;
  }
 
